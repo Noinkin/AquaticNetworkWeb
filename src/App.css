@@ -1,8 +1,6 @@
-
-
- body {
+body {
   margin: 0;
-  background-color: #222
+  background-image: url("Aquatic Background.jpg");
 }
 
 .navbar {
@@ -42,7 +40,7 @@ a {
 
 @font-face {
   font-family: simple;
-  src: url(https://pangeastudios.repl.co/files/fonts/simple.woff);
+  src: url(https://aquaticnetwork.repl.co/src/files/fonts/simple.woff);
 } 
 
 .dropdown {
@@ -88,4 +86,21 @@ a {
   display: block;
 }
 
+.content {
+    color: white;
+}
 
+.top {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.essay {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.staffteam {
+    font-size: 20px;
+    text-decoration: none;
+}
